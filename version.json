@@ -1,6 +1,6 @@
 {
-  "latest_version": "6.7.9c",
+  "latest_version": "6.7.10",
   "download_url": "https://github.com/woodplans/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe",
-  "release_notes": "Bug fix for installed app Node runtime path with spaces, bundled Playwright Chromium, writable output folder, and cleaner installer packaging.",
+  "release_notes": "Premium searchable category picker, selected category chip, duplicate category cleanup, Country / Province / City location database, bundled Node runtime, Playwright Chromium support, writable output folder, and stability improvements.",
   "force_update": false
 }
