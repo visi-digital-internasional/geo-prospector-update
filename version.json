@@ -1,0 +1,6 @@
+{
+  "latest_version": "6.7.9a",
+  "download_url": "https://github.com/woodplans/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe",
+  "release_notes": "UI improvements, license update flow, sidebar fixes, and stability improvements.",
+  "force_update": false
+}
