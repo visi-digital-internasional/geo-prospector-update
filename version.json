@@ -1,6 +1,6 @@
 {
   "latest_version": "6.7.11",
   "download_url": "https://github.com/woodplans/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe",
-  "release_notes": "Premium searchable category picker, selected category chip, duplicate category cleanup, Country / Province / City location database, bundled Node runtime, Playwright Chromium support, writable output folder, and stability improvements.",
+  "release_notes": "Premium update notification, download progress UI, scraper stability improvements, and better installer flow.",
   "force_update": false
 }
