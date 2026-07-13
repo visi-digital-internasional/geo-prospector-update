@@ -1,6 +1,6 @@
-{
-  "latest_version": "6.7.13.1",
-  "download_url": "https://github.com/woodplans/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe",
-  "release_notes": "Add security",
-  "force_update": false
+﻿{
+    "latest_version":  "6.7.13.1",
+    "download_url":  "https://github.com/woodplans/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe",
+    "release_notes":  "Security Anchor, build integrity verification, dan peningkatan keamanan.",
+    "force_update":  false
 }
