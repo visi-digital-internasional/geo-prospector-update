@@ -1,6 +1,1 @@
-{
-    "latest_version":  "6.7.13.1",
-    "download_url":  "https://github.com/woodplans/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe",
-    "release_notes":  "Fixed Saved Categories multi-category scraping so every selected category is processed, results are merged, duplicates are filtered after merging, and an additional coverage pass runs when the requested target is not reached.",
-    "force_update":  false
-}
+{"latest_version":"6.7.13.1","download_url":"https://github.com/woodplans/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe","release_notes":"Security Anchor, build integrity verification, dan peningkatan keamanan.","force_update":false}
