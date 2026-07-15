@@ -1,93 +1,93 @@
-# Geo Prospector - Established Edition
+# Geo Prospector — Established Edition
 
-**Geo Prospector** adalah aplikasi Windows untuk membantu pencarian dan pengumpulan database prospek bisnis berdasarkan kategori dan lokasi.
+**Geo Prospector** is a Windows desktop application designed to help users discover and collect business prospect data based on business categories and locations.
 
-> Repository ini digunakan untuk distribusi installer, informasi versi, dan pembaruan aplikasi Geo Prospector Established Edition.
+> This repository is used to distribute the installer, publish version information, and deliver application updates for Geo Prospector Established Edition.
 
 ## Official Website
 
-[**Kunjungi Website Resmi Geo Prospector**](https://geoprospector.id/)
+[**Visit the Official Geo Prospector Website**](https://geoprospector.id/)
 
-## Download Aplikasi
+## Download the Application
 
-[**Download Geo Prospector Terbaru**](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe)
+[**Download the Latest Geo Prospector Installer**](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe)
 
-Versi terbaru: **v6.7.15.1**
+Latest version: **v6.7.15.1**
 
-[**Lihat Halaman Release Terbaru**](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest)
+[**View the Latest Release**](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest)
 
-## Dokumentasi
+## Documentation
 
-Panduan instalasi, aktivasi, B2B Finder, Market Research, Email Finder, ekspor data, dan troubleshooting tersedia di GitBook:
+Installation, activation, B2B Finder, Market Research, Email Finder, data export, and troubleshooting guides are available in the official GitBook documentation:
 
-[**Buka Dokumentasi Geo Prospector**](https://visi-digital-internasional.gitbook.io/geo-prospector)
+[**Open the Geo Prospector Documentation**](https://visi-digital-internasional.gitbook.io/geo-prospector)
 
-## Pemeriksaan Keamanan
+## Security Scan
 
-Hasil pemeriksaan URL melalui VirusTotal:
+View the URL scan result on VirusTotal:
 
-[**Lihat Hasil Pemeriksaan VirusTotal**](https://www.virustotal.com/gui/url/17506a6fdfab37537bec95b3b24ca4052470dbcfc262532bfc0825098b430249?nocache=1)
+[**View the VirusTotal Report**](https://www.virustotal.com/gui/url/17506a6fdfab37537bec95b3b24ca4052470dbcfc262532bfc0825098b430249?nocache=1)
 
-> Unduh aplikasi hanya melalui website resmi atau tautan release resmi pada repository ini.
+> Download Geo Prospector only from the official website or the official GitHub release link provided in this repository.
 
-## Fitur Utama
+## Main Features
 
-- Pencarian bisnis berdasarkan kategori dan lokasi
-- Single-category dan multi-category search
-- Pemilihan negara, provinsi, dan kota
+- Business discovery by category and location
+- Single-category and multi-category searches
+- Country, province, and city selection
 - Target Market Research
 - Saved Categories
 - Duplicate filtering
 - Email Finder
-- Export CSV, Excel, TXT, dan JSON
+- CSV, Excel, TXT, and JSON export
 - Device Activation
-- Dynamic Customer Support WhatsApp
-- Update aplikasi otomatis
-- Signed security anchor untuk verifikasi integritas build
+- Dynamic Customer Support WhatsApp configuration
+- Automatic application updates
+- Signed security anchor for build-integrity verification
 
-## Persyaratan Sistem
+## System Requirements
 
-- Windows 10 atau Windows 11
-- Sistem 64-bit
-- Koneksi internet
-- Ruang penyimpanan yang memadai untuk aplikasi dan runtime browser
+- Windows 10 or Windows 11
+- 64-bit operating system
+- Internet connection
+- Sufficient storage for the application and browser runtime
 
-## Cara Instalasi
+## Installation
 
 1. Download `GeoProspectorSetup.exe`.
-2. Jalankan installer sebagai Administrator.
-3. Ikuti proses instalasi sampai selesai.
-4. Buka Geo Prospector.
-5. Masuk ke halaman **Activation** untuk mengaktifkan lisensi.
+2. Run the installer as Administrator.
+3. Follow the installation steps until completion.
+4. Open Geo Prospector.
+5. Go to the **Activation** page to activate your license.
 
-## Aktivasi Lisensi
+## License Activation
 
-1. Salin **Device ID**.
-2. Klik **Send Activation Request**.
-3. Kirim permintaan aktivasi kepada Customer Support.
-4. Masukkan token lisensi yang diberikan.
-5. Klik tombol aktivasi.
+1. Copy your **Device ID**.
+2. Click **Send Activation Request**.
+3. Send the activation request to Customer Support.
+4. Enter the license token provided by Customer Support.
+5. Complete the activation process.
 
-[**Buka Panduan Aktivasi**](https://visi-digital-internasional.gitbook.io/geo-prospector)
+[**Open the Activation Guide**](https://visi-digital-internasional.gitbook.io/geo-prospector)
 
-## Pembaruan Aplikasi
+## Application Updates
 
-Geo Prospector memeriksa pembaruan saat aplikasi dijalankan. Ketika versi baru tersedia, aplikasi akan menampilkan pemberitahuan dan mengarahkan pengguna ke installer terbaru.
+Geo Prospector checks for updates when the application starts. When a newer version is available, the application displays an update notification and directs the user to the latest installer.
 
-[**Lihat Manifest Pembaruan**](https://raw.githubusercontent.com/visi-digital-internasional/geo-prospector-update/main/version.json)
+[**View the Update Manifest**](https://raw.githubusercontent.com/visi-digital-internasional/geo-prospector-update/main/version.json)
 
-## Verifikasi Installer
+## Installer Verification
 
-**Versi:** `v6.7.15.1`  
-**Nama file:** `GeoProspectorSetup.exe`  
-**Ukuran:** `253264229 bytes`  
+**Version:** `v6.7.15.1`  
+**File name:** `GeoProspectorSetup.exe`  
+**File size:** `253264229 bytes`  
 **SHA-256:**
 
 ```text
 FE3CFADD45DA098984318BCA64B2C9A65B9174F657048EBA4A80568A14855829
 ```
 
-Verifikasi melalui PowerShell:
+Verify the installer with PowerShell:
 
 ```powershell
 Get-FileHash `
@@ -95,9 +95,9 @@ Get-FileHash `
   -Algorithm SHA256
 ```
 
-## Keamanan Build
+## Build Security
 
-Release Established Edition menggunakan:
+Geo Prospector Established Edition uses:
 
 - Ed25519 public-key verification
 - Signed security anchor manifest
@@ -105,22 +105,22 @@ Release Established Edition menggunakan:
 - Device-bound license activation
 - Clock rollback protection
 
-Private signing key tidak disertakan di dalam aplikasi maupun installer.
+The private signing key is not included in the application or installer.
 
-## Tautan Penting
+## Important Links
 
 - [Official Website](https://geoprospector.id/)
-- [Download Aplikasi](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe)
-- [GitHub Release](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest)
-- [Dokumentasi GitBook](https://visi-digital-internasional.gitbook.io/geo-prospector)
-- [VirusTotal](https://www.virustotal.com/gui/url/17506a6fdfab37537bec95b3b24ca4052470dbcfc262532bfc0825098b430249?nocache=1)
+- [Download Application](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe)
+- [Latest GitHub Release](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest)
+- [GitBook Documentation](https://visi-digital-internasional.gitbook.io/geo-prospector)
+- [VirusTotal Report](https://www.virustotal.com/gui/url/17506a6fdfab37537bec95b3b24ca4052470dbcfc262532bfc0825098b430249?nocache=1)
 
-## Dukungan
+## Support
 
-Gunakan tombol **Send Activation Request** di dalam aplikasi untuk menghubungi Customer Support.
+Use the **Send Activation Request** button inside the application to contact Customer Support.
 
 ## Publisher
 
 **Visi Digital Internasional**
 
-Copyright (C) 2026 Visi Digital Internasional. All rights reserved.
+Copyright © 2026 Visi Digital Internasional. All rights reserved.
