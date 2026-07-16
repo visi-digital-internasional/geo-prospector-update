@@ -1,5 +1,5 @@
 {
-    "latest_version":  "v6.7.15.1",
+    "latest_version":  "v6.7.16.3",
     "download_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe",
     "release_notes":  "Established Edition v6.7.16.3 maintenance release: synchronized version metadata, rebuilt signed Security Anchor manifest, and verified Windows installer.",
     "force_update":  false,
