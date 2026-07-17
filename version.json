@@ -1,7 +1,9 @@
 {
-  "latest_version": "6.7.17.1",
-  "version": "6.7.17.1",
-  "download_url": "https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.17.1/GeoProspectorSetup.exe",
-  "release_notes": "Expanded Google Maps coverage, improved persistent duplicate filtering, up to 500 data per search, dynamic time estimates, UTF-8 BOM-safe dedupe index, and scraper stability improvements.",
-  "force_update": false
+    "latest_version":  "6.7.18.1",
+    "version":  "6.7.18.1",
+    "download_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.18.1/GeoProspectorSetup.exe",
+    "release_notes":  "Email Finder with Google Maps company discovery, fast public-email extraction, per-email MX validation, parallel processing, searchable location filters, elapsed-time tracking, company-based credits, CSV/Excel export, and scraping coverage improvements.",
+    "force_update":  false,
+    "sha256":  "75C5D7CCCAAB3DDE886952B4B9751E5313D8EA910A7FEDC288EF82DABF2BB1DC",
+    "published_at":  "2026-07-17T22:36:38Z"
 }
