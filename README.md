@@ -169,3 +169,38 @@ Released 17 July 2026.
 ### Download
 
 [Download GeoProspectorSetup.exe](https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.17.1/GeoProspectorSetup.exe)
+
+<!-- GEO_PROSPECTOR_CURRENT_RELEASE_START -->
+## Current release
+
+Geo Prospector Established Edition is currently available as version **6.7.19.2**.
+
+| Property | Value |
+|---|---|
+| Version | 6.7.19.2 |
+| Release date | 20 July 2026 |
+| Platform | Windows 64-bit |
+| Installer | GeoProspectorSetup.exe |
+
+- [Download the latest installer](https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.19.2/GeoProspectorSetup.exe)
+- [View the GitHub release](https://github.com/visi-digital-internasional/geo-prospector-update/releases/tag/v6.7.19.2)
+- SHA-256: EBB61EEA5F08D61382D8ABD354773B734258C6D03CF4F7B85B382D15223D6CED
+<!-- GEO_PROSPECTOR_CURRENT_RELEASE_END -->
+
+<!-- ESTABLISHED_RELEASE_6_7_19_2_START -->
+## Established Edition v6.7.19.2
+
+Geo Prospector 6.7.19.2 introduces centralized membership and credit management.
+
+- Automatic membership registration during license generation.
+- Server-controlled membership status and credit balance.
+- Administrative credit additions through Google Sheets.
+- Remote membership blocking using the active field.
+- Membership restoration after application restart.
+- Protected Python Email Finder backend.
+- Signed Established Edition security manifest.
+
+- [Windows installer](https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.19.2/GeoProspectorSetup.exe)
+- [GitHub release](https://github.com/visi-digital-internasional/geo-prospector-update/releases/tag/v6.7.19.2)
+- SHA-256: EBB61EEA5F08D61382D8ABD354773B734258C6D03CF4F7B85B382D15223D6CED
+<!-- ESTABLISHED_RELEASE_6_7_19_2_END -->

@@ -1,9 +1,10 @@
 {
     "latest_version":  "6.7.19.1",
-    "version":  "6.7.19.1",
-    "download_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.19.1/GeoProspectorSetup.exe",
+    "version":  "6.7.19.2",
+    "download_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.19.2/GeoProspectorSetup.exe",
     "release_notes":  "Introduces a redesigned website-list Email Finder powered by a protected Python backend, manual and CSV input, public-email extraction, MX validation, inline B2B results, elapsed-time tracking, remote plan quotas, and Custom license support.",
     "force_update":  false,
-    "sha256":  "8B06EA61BA153523BC108A0053F0C3D3714C7976B70DF26920CBAB108AD21885",
-    "published_at":  "2026-07-19T12:13:35Z"
+    "sha256":  "EBB61EEA5F08D61382D8ABD354773B734258C6D03CF4F7B85B382D15223D6CED",
+    "published_at":  "2026-07-20",
+    "release_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/tag/v6.7.19.2"
 }
