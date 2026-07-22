@@ -1,216 +1,115 @@
-
-<!-- RELEASE-6.7.19.1 -->
-## Latest release: 6.7.19.1
-
-Geo Prospector 6.7.19.1 introduces the redesigned website-list Email Finder powered by a protected Python backend, inline B2B prospecting results, remote plan quotas, and Custom license support.
-
-- [Release notes](docs/releases/6.7.19.1.md)
-- [Download installer](https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.19.1/GeoProspectorSetup.exe)
-- SHA-256: 8B06EA61BA153523BC108A0053F0C3D3714C7976B70DF26920CBAB108AD21885
-<!-- /RELEASE-6.7.19.1 -->
 # Geo Prospector Established Edition
 
-**Geo Prospector** is a Windows desktop application designed to help users discover and collect business prospect data based on business categories and locations.
+Geo Prospector is a Windows desktop application by **Visi Digital Internasional** for discovering, collecting, and exporting business prospect data by category and location.
 
-> This repository is used to distribute the installer, publish version information, and deliver application updates for Geo Prospector Established Edition.
+> This public repository distributes the official Windows installer and update manifest. The application source code and private signing material are not published here.
 
-## Official Website
+## Current Release
 
-[**Visit the Official Geo Prospector Website**](https://geoprospector.id/)
+| Property | Value |
+|---|---|
+| Version | **v6.7.22.1** |
+| Release date | **2026-07-22** |
+| Platform | Windows 10/11, 64-bit |
+| Installer | `GeoProspectorSetup.exe` |
+| Size | `264426395 bytes` |
+| SHA-256 | `6C6FC5EB5277B8A81F43E1DD154F16A332AFF97B4D23A515D8B9477CA8E688B7` |
 
-## Download the Application
+[Download Geo Prospector v6.7.22.1](https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.22.1/GeoProspectorSetup.exe)
 
-[**Download the Latest Geo Prospector Installer**](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe)
+[View release notes](https://github.com/visi-digital-internasional/geo-prospector-update/releases/tag/v6.7.22.1)
 
-Latest version: **v6.7.15.1**
+## Highlights in v6.7.22.1
 
-[**View the Latest Release**](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest)
-
-## Documentation
-
-Installation, activation, B2B Finder, Market Research, Email Finder, data export, and troubleshooting guides are available in the official GitBook documentation:
-
-[**Open the Geo Prospector Documentation**](https://visi-digital-internasional.gitbook.io/geo-prospector)
-
-## Security Scan
-
-View the URL scan result on VirusTotal:
-
-[**View the VirusTotal Report**](https://www.virustotal.com/gui/url/17506a6fdfab37537bec95b3b24ca4052470dbcfc262532bfc0825098b430249?nocache=1)
-
-> Download Geo Prospector only from the official website or the official GitHub release link provided in this repository.
-
-## Main Features
-
-- Business discovery by category and location
-- Single-category and multi-category searches
-- Country, province, and city selection
-- Target Market Research
-- Saved Categories
-- Duplicate filtering
-- Email Finder
-- CSV, Excel, TXT, and JSON export
-- Device Activation
-- Dynamic Customer Support WhatsApp configuration
-- Automatic application updates
-- Signed security anchor for build-integrity verification
-
-## System Requirements
-
-- Windows 10 or Windows 11
-- 64-bit operating system
-- Internet connection
-- Sufficient storage for the application and browser runtime
+- Country Engine 3-Stage v5.0
+- Province Engine v4.8 frozen
+- Exact-category business searches
+- Country, province/state, and locality targeting
+- Result targets up to 500 records
+- Single-category and multi-category workflows
+- Saved categories and persistent settings
+- Duplicate filtering and current-result deduplication
+- Email Finder backend
+- CSV, Excel, TXT, and JSON exports
+- Device-bound license activation
+- Centralized membership and credit controls
+- Signed security anchor and build-integrity verification
+- Clock rollback protection
+- Bundled Node.js and Playwright browser runtime
 
 ## Installation
 
-1. Download `GeoProspectorSetup.exe`.
-2. Run the installer as Administrator.
-3. Follow the installation steps until completion.
-4. Open Geo Prospector.
-5. Go to the **Activation** page to activate your license.
+1. Download `GeoProspectorSetup.exe` from the current release.
+2. Run the installer.
+3. Launch **Geo Prospector**.
+4. Open the Activation page.
+5. Activate the device using a valid license token.
 
-## License Activation
+Existing application data under `C:\GeoProspector` is preserved when the application is uninstalled.
 
-1. Copy your **Device ID**.
-2. Click **Send Activation Request**.
-3. Send the activation request to Customer Support.
-4. Enter the license token provided by Customer Support.
-5. Complete the activation process.
+## Verify the Installer
 
-[**Open the Activation Guide**](https://visi-digital-internasional.gitbook.io/geo-prospector)
-
-## Application Updates
-
-Geo Prospector checks for updates when the application starts. When a newer version is available, the application displays an update notification and directs the user to the latest installer.
-
-[**View the Update Manifest**](https://raw.githubusercontent.com/visi-digital-internasional/geo-prospector-update/main/version.json)
-
-## Installer Verification
-
-**Version:** `v6.7.15.1`
-**File name:** `GeoProspectorSetup.exe`
-**File size:** `253264229 bytes`
-**SHA-256:**
-
-```text
-FE3CFADD45DA098984318BCA64B2C9A65B9174F657048EBA4A80568A14855829
-```
-
-Verify the installer with PowerShell:
+Run this command in PowerShell from the folder containing the installer:
 
 ```powershell
-Get-FileHash `
-  -LiteralPath ".\GeoProspectorSetup.exe" `
-  -Algorithm SHA256
+Get-FileHash -LiteralPath ".\GeoProspectorSetup.exe" -Algorithm SHA256
 ```
 
-## Build Security
+The result must match:
+
+```text
+6C6FC5EB5277B8A81F43E1DD154F16A332AFF97B4D23A515D8B9477CA8E688B7
+```
+
+Do not install the application when the hash is different.
+
+## Automatic Updates
+
+Geo Prospector checks the public update manifest when the application starts:
+
+[View `version.json`](https://raw.githubusercontent.com/visi-digital-internasional/geo-prospector-update/main/version.json)
+
+Current manifest values:
+
+```json
+{
+    "latest_version":  "6.7.22.1",
+    "version":  "6.7.22.1",
+    "download_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.22.1/GeoProspectorSetup.exe",
+    "release_notes":  "Country Engine 3-Stage v5.0, frozen Province Engine v4.8, exact-category search, target options up to 500 records, bundled Node.js and Playwright runtime, protected Email Finder backend, signed security anchor, and final UI result-import and estimated-time corrections.",
+    "force_update":  false,
+    "sha256":  "6C6FC5EB5277B8A81F43E1DD154F16A332AFF97B4D23A515D8B9477CA8E688B7",
+    "published_at":  "2026-07-22",
+    "release_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/tag/v6.7.22.1"
+}
+```
+
+## Security
 
 Geo Prospector Established Edition uses:
 
 - Ed25519 public-key verification
-- Signed security anchor manifest
-- Build-integrity verification
+- Signed security-anchor manifests
+- Runtime build-integrity checks
 - Device-bound license activation
 - Clock rollback protection
+- External private signing-key storage during official builds
 
-The private signing key is not included in the application or installer.
+The private signing key is not included in the repository, application, or installer.
 
-## Important Links
+## Official Links
 
-- [Official Website](https://geoprospector.id/)
-- [Download Application](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe)
-- [Latest GitHub Release](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest)
-- [GitBook Documentation](https://visi-digital-internasional.gitbook.io/geo-prospector)
-- [VirusTotal Report](https://www.virustotal.com/gui/url/17506a6fdfab37537bec95b3b24ca4052470dbcfc262532bfc0825098b430249?nocache=1)
+- [Official website](https://geoprospector.id)
+- [Latest Windows release](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest)
+- [Update manifest](https://raw.githubusercontent.com/visi-digital-internasional/geo-prospector-update/main/version.json)
+- [Documentation](https://visi-digital-internasional.gitbook.io/geo-prospector)
 
 ## Support
 
-Use the **Send Activation Request** button inside the application to contact Customer Support.
+Use **Send Activation Request** inside Geo Prospector to contact Customer Support regarding activation and license assistance.
 
 ## Publisher
 
 **Visi Digital Internasional**
 
-Copyright 2026 Visi Digital Internasional. All rights reserved.
-
-<!-- ESTABLISHED_RELEASE_6_7_16_3_START -->
-## Latest Established Release v6.7.16.3
-
-Geo Prospector Established Edition v6.7.16.3 is a maintenance release based on the verified v6.7.15.1 source.
-
-- Installer: [GeoProspectorSetup.exe](https://github.com/visi-digital-internasional/geo-prospector-update/releases/latest/download/GeoProspectorSetup.exe)
-- SHA-256: $installerHash
-- Size: $(C:\APKPC\geo_prospector_editions\established_6_7_16_3\dist_installer\GeoProspectorSetup.exe.Length) bytes
-- Security manifest: 6.7.16.3
-- Mandatory update: alse
-
-The Established public key and application business logic are unchanged.
-<!-- ESTABLISHED_RELEASE_6_7_16_3_END -->
-
-## Version 6.7.17.1
-
-Released 17 July 2026.
-
-### Improvements
-
-- Expanded Google Maps coverage using multiple geographic viewports.
-- Improved persistent duplicate filtering.
-- Continues collecting candidates after previous results are skipped.
-- Added data-count options: 200, 300, 400, and 500.
-- Dynamic scraping estimates with and without Email Finder.
-- Enterprise supports up to 500 data per search.
-- Business supports up to 300 data per search.
-- UTF-8 BOM-safe dedupe index reader.
-- Improved Google Maps Place ID identity matching.
-- Shared domains such as Linktree are no longer treated as unique business identities.
-
-### Download
-
-[Download GeoProspectorSetup.exe](https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.17.1/GeoProspectorSetup.exe)
-
-<!-- GEO_PROSPECTOR_CURRENT_RELEASE_START -->
-## Current release
-
-Geo Prospector Established Edition is currently available as version **6.7.20.1**.
-
-| Property | Value |
-|---|---|
-| Version | `6.7.20.1` |
-| Release date | `20 July 2026` |
-| Platform | Windows 64-bit |
-| Installer | `GeoProspectorSetup.exe` |
-
-- [Download the latest installer](https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.20.1/GeoProspectorSetup.exe)
-- [View the GitHub release](https://github.com/visi-digital-internasional/geo-prospector-update/releases/tag/v6.7.20.1)
-- SHA-256: `C18C055131432EF6BB4A1F5D5F11B5B675D9DB2E1C6E572701A60C0EA7E05AF8`
-<!-- GEO_PROSPECTOR_CURRENT_RELEASE_END -->
-
-<!-- ESTABLISHED_RELEASE_6_7_20_1_START -->
-## Established Edition v6.7.20.1
-
-Geo Prospector 6.7.20.1 increases Email Finder capacity to 1,000 websites, activates the Stop workflow, adds remote daily/weekly/monthly limits, and recalibrates processing-time estimates.
-
-- [Release notes](docs/releases/6.7.20.1.md)
-- [Windows installer](https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.20.1/GeoProspectorSetup.exe)
-- SHA-256: `C18C055131432EF6BB4A1F5D5F11B5B675D9DB2E1C6E572701A60C0EA7E05AF8`
-<!-- ESTABLISHED_RELEASE_6_7_20_1_END -->
-
-<!-- ESTABLISHED_RELEASE_6_7_19_2_START -->
-## Established Edition v6.7.19.2
-
-Geo Prospector 6.7.19.2 introduces centralized membership and credit management.
-
-- Automatic membership registration during license generation.
-- Server-controlled membership status and credit balance.
-- Administrative credit additions through Google Sheets.
-- Remote membership blocking using the active field.
-- Membership restoration after application restart.
-- Protected Python Email Finder backend.
-- Signed Established Edition security manifest.
-
-- [Windows installer](https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.19.2/GeoProspectorSetup.exe)
-- [GitHub release](https://github.com/visi-digital-internasional/geo-prospector-update/releases/tag/v6.7.19.2)
-- SHA-256: EBB61EEA5F08D61382D8ABD354773B734258C6D03CF4F7B85B382D15223D6CED
-<!-- ESTABLISHED_RELEASE_6_7_19_2_END -->
+Copyright © 2026 Visi Digital Internasional. All rights reserved.

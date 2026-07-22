@@ -1,10 +1,10 @@
 {
-    "latest_version":  "6.7.20.1",
-    "version":  "6.7.20.1",
-    "download_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.20.1/GeoProspectorSetup.exe",
-    "release_notes":  "Introduces a redesigned website-list Email Finder powered by a protected Python backend, manual and CSV input, public-email extraction, MX validation, inline B2B results, elapsed-time tracking, remote plan quotas, and Custom license support.",
+    "latest_version":  "6.7.22.1",
+    "version":  "6.7.22.1",
+    "download_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.22.1/GeoProspectorSetup.exe",
+    "release_notes":  "Country Engine 3-Stage v5.0, frozen Province Engine v4.8, exact-category search, target options up to 500 records, bundled Node.js and Playwright runtime, protected Email Finder backend, signed security anchor, and final UI result-import and estimated-time corrections.",
     "force_update":  false,
-    "sha256":  "C18C055131432EF6BB4A1F5D5F11B5B675D9DB2E1C6E572701A60C0EA7E05AF8",
-    "published_at":  "2026-07-20",
-    "release_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/tag/v6.7.20.1"
+    "sha256":  "6C6FC5EB5277B8A81F43E1DD154F16A332AFF97B4D23A515D8B9477CA8E688B7",
+    "published_at":  "2026-07-22",
+    "release_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/tag/v6.7.22.1"
 }
