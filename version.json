@@ -1,10 +1,10 @@
 {
-    "latest_version":  "6.7.23.1",
-    "version":  "6.7.23.1",
-    "download_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.23.1/GeoProspectorSetup.exe",
-    "release_notes":  "Adds canonical B2B category enforcement, license limits up to 5,000 results, graceful Stop with partial-result and credit preservation, Email Finder support for 5,000 domains, and calibrated live processing estimates.",
-    "force_update":  false,
-    "sha256":  "6785F71605AB56C9ACAD611AFF58FD598FABD23230A0AEF02420937C49F7840D",
-    "published_at":  "2026-07-24",
-    "release_url":  "https://github.com/visi-digital-internasional/geo-prospector-update/releases/tag/v6.7.23.1"
+    "latest_version": "6.7.25.1",
+    "version": "6.7.25.1",
+    "download_url": "https://github.com/visi-digital-internasional/geo-prospector-update/releases/download/v6.7.25.1/GeoProspectorSetup.exe",
+    "release_notes": "Adds structured Country, Province/State, and City targeting; plan limits up to 5,000 records; controlled related-category matching; nonfatal zero-result handling; accurate valid-row progress; zero-result credit protection; and the complete signed self-contained Established runtime.",
+    "force_update": false,
+    "sha256": "49ACD03FDAEC621B9CFD5A45FB9CF51F90BC55197DE8381C37A072192BDE519F",
+    "published_at": "2026-07-24",
+    "release_url": "https://github.com/visi-digital-internasional/geo-prospector-update/releases/tag/v6.7.25.1"
 }
